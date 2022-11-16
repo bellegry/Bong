@@ -39,10 +39,10 @@ public class tese01 {
 		System.out.println(json);
 		
 		// 파일로 저장
-//		Writer writer = new FileWriter("C:/Bong/JSON/test/test.json", Charset.forName("UTF-8"));
-//		writer.write(json);
-//		writer.flush();
-//		writer.close();
+		Writer writer = new FileWriter("C:/Bong/JSON/test/test.json", Charset.forName("UTF-8"));
+		writer.write(json);
+		writer.flush();
+		writer.close();
 		
 	}
 }
